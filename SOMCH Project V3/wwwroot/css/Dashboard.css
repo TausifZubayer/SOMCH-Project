@@ -1,0 +1,143 @@
+﻿html, body {
+    background-color: lightgray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    background-color: white;
+    margin-top: 0px;
+    padding-top: 0px;
+    width: 100%;
+    height: 50px;
+    padding-left: 20px;
+    display: flex;
+}
+
+.navbar #med {
+    position: relative;
+    color: blue;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.navbar #time {
+    color: gray;
+    background-color: cyan;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: sticky;
+    left: 1000px;
+    display: flex;
+}
+
+.navbar #time p {
+    margin: auto;
+    padding-top: 5px;
+}
+
+.title {
+    margin: 20px;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.dashboard {
+    background-color: white;
+    width: 80%;
+    height: 150px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+}
+
+.dashboard .patient_reg {
+    background-color: cyan;
+    width: 18%;
+    height: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard .patient_reg span {
+    display: table;
+    margin: 0 auto;
+    padding-top: 60px;
+    color: blue;
+    font-weight: 900;
+}
+
+.dashboard .reg_work_list {
+    background-color: cyan;
+    width: 20%;
+    height: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard .reg_work_list span {
+    display: table;
+    margin: 0 auto;
+    padding-top: 60px;
+    color: blue;
+    font-weight: 900;
+}
+
+.dashboard .req_work_list {
+    background-color: cyan;
+    width: 20%;
+    height: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard .req_work_list span {
+    display: table;
+    margin: 0 auto;
+    padding-top: 60px;
+    color: blue;
+    font-weight: 900;
+}
+
+.dashboard .split_account {
+    background-color: cyan;
+    width: 18%;
+    height: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard .split_account span {
+    display: table;
+    margin: 0 auto;
+    padding-top: 60px;
+    color: blue;
+    font-weight: 900;
+}
+
+.dashboard .merge_account {
+    background-color: cyan;
+    width: 18%;
+    height: 100%;
+    border-radius: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard .merge_account span {
+    display: table;
+    margin: 0 auto;
+    padding-top: 60px;
+    color: blue;
+    font-weight: 900;
+}

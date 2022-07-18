@@ -1,0 +1,63 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@{
+    ViewData["Title"] = "Dashboard Page";
+}
+
+@{
+    Layout = "Dashboard_Layout";
+}
+
+
+<head>
+    <link rel="stylesheet" href="~/css/Dashboard.css" asp-append-version="true" />
+</head>
+
+ <div class="navbar">
+    <span id="med">
+        <p>
+            SYLHET MAG OSMANI Medical College Hospital
+        </p>
+    </span>
+    <span id="time">
+        <p>
+            23 Feb 2021, Tuesday : 12 : 42 : 53 PM
+        </p>
+    </span>
+</div>
+
+<div class="title">
+    <span>
+        Registration(Walk-In Patients)
+    </span>
+</div>
+
+<div class="dashboard">
+    <div class="patient_reg">
+        <span>
+            <a href="Registration.html">Patient Registration</a>
+        </span>
+    </div>
+    <div class="reg_work_list">
+        <span>
+            <a href="workList.html">Registered Patient Work List</a>
+        </span>
+    </div>
+    <div class="req_work_list">
+        <span>
+            <a href="#">Privileged Request Work List</a>
+        </span>
+    </div>
+    <div class="split_account">
+        <span>
+            <a href="#">Split Patient Account</a>
+        </span>
+    </div>
+    <div class="merge_account">
+        <span>
+            <a href="#">Merge Patient Account</a>
+        </span>
+    </div>
+</div>

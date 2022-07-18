@@ -1,0 +1,38 @@
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.csproj.AssemblyReference.cache
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.GeneratedMSBuildEditorConfig.editorconfig
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.AssemblyInfoInputs.cache
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.AssemblyInfo.cs
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.csproj.CoreCompileInputs.cache
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.MvcApplicationPartsAssemblyInfo.cache
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.RazorAssemblyInfo.cache
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.RazorAssemblyInfo.cs
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\appsettings.Development.json
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\appsettings.json
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\SOMCH Project V3.staticwebassets.runtime.json
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\SOMCH Project V3.exe
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\SOMCH Project V3.deps.json
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\SOMCH Project V3.runtimeconfig.json
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\SOMCH Project V3.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\SOMCH Project V3.pdb
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\staticwebassets.build.json
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\staticwebassets.development.json
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\scopedcss\bundle\SOMCH Project V3.styles.css
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\scopedcss\projectbundle\SOMCH Project V3.bundle.scp.css
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\refint\SOMCH Project V3.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.pdb
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.genruntimeconfig.cache
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\ref\SOMCH Project V3.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\scopedcss\Views\Shared\Dashboard_Layout.cshtml.rz.scp.css
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\scopedcss\Views\Shared\main_Layout.cshtml.rz.scp.css
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Humanizer.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Npgsql.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.Design.dll
+F:\EGeneration Ltd\Self Learning Codes\SOMCH Project V3_sn\SOMCH Project V3\obj\Debug\net6.0\SOMCH Project V3.csproj.CopyComplete
