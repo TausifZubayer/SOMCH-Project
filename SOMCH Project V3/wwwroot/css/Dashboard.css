@@ -1,8 +1,9 @@
-﻿html, body {
+﻿html,
+body {
     background-color: lightgray;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     width: 100%;
     height: 100%;
 }
@@ -17,32 +18,69 @@
     display: flex;
 }
 
-.navbar #med {
-    position: relative;
-    color: blue;
-    font-weight: bold;
-    display: inline-block;
+    .navbar #medName {
+        position: relative;
+        margin-top: auto;
+        margin-bottom: auto;
+        color: rgba(15, 103, 196, 0.792);
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .navbar #mujib {
+        display: inline-block;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        position: sticky;
+        left: 730px;
+        display: flex;
+    }
+
+    .navbar #time {
+        color: gray;
+        background-color: rgb(224, 240, 245);
+        display: inline-block;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        position: sticky;
+        left: 800px;
+        display: flex;
+    }
+
+        .navbar #time p {
+            margin: auto;
+            padding-top: 5px;
+        }
+
+    .navbar #notification {
+        /* display: inline-block;*/
+        position: sticky;
+        margin-block: 10px;
+        left: 1055px;
+        display: flex;
+    }
+
+    .navbar #profile-photo {
+        position: sticky;
+        padding-block: 5px;
+        left: 1100px;
+        display: flex;
+    }
+
+#img {
+    border-radius: 50%;
 }
 
-.navbar #time {
-    color: gray;
-    background-color: cyan;
-    display: inline-block;
-    margin-top: 10px;
-    margin-bottom: 10px;
+.navbar #name {
     position: sticky;
-    left: 1000px;
+    margin-block: 15px;
+    left: 1150px;
     display: flex;
-}
-
-.navbar #time p {
-    margin: auto;
-    padding-top: 5px;
 }
 
 .title {
     margin: 20px;
-    background-color: gray;
+    background-color: slategray;
     padding: 10px;
     border: 1px solid gray;
     border-radius: 5px;
@@ -50,94 +88,115 @@
 
 .dashboard {
     background-color: white;
-    width: 80%;
-    height: 150px;
+    width: 85%;
+    height: 190px;
     margin: 20px;
     padding: 20px;
     display: flex;
 }
 
-.dashboard .patient_reg {
-    background-color: cyan;
+    .dashboard .patient_reg {
+        /* background-color: cyan;
     width: 18%;
-    height: 100%;
-    border-radius: 5px;
-    display: inline-block;
-    margin-right: 10px;
+    height: 100%;*/
+        border-radius: 5px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .dashboard .patient_reg span {
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+    .dashboard .reg_work_list {
+        border-radius: 5px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .dashboard .reg_work_list span {
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+    .dashboard .req_work_list {
+        border-radius: 5px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .dashboard .req_work_list span {
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+    .dashboard .split_account {
+        border-radius: 5px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .dashboard .split_account span {
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+    .dashboard .merge_account {
+        border-radius: 5px;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+        .dashboard .merge_account span {
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+.footer {
+    margin-top: 230px;
+    width: 100%;
+    height: 40px;
+    padding-left: 20px;
+    display: flex;
 }
 
-.dashboard .patient_reg span {
-    display: table;
-    margin: 0 auto;
-    padding-top: 60px;
-    color: blue;
-    font-weight: 900;
-}
+    .footer #copy-rights {
+        position: relative;
+        margin-top: auto;
+        margin-bottom: auto;
+        position: sticky;
+        display: inline-block;
+        left: 40px;
+    }
 
-.dashboard .reg_work_list {
-    background-color: cyan;
-    width: 20%;
-    height: 100%;
-    border-radius: 5px;
-    display: inline-block;
-    margin-right: 10px;
-}
+    .footer #powered {
+        margin-top: auto;
+        margin-bottom: auto;
+        display: flex;
+        position: sticky;
+        left: 940px;
+    }
 
-.dashboard .reg_work_list span {
-    display: table;
-    margin: 0 auto;
-    padding-top: 60px;
-    color: blue;
-    font-weight: 900;
-}
+    .footer #egen {
+        display: inline-block;
+        position: sticky;
+        display: flex;
+        left: 1020px;
+        margin-top: 8px;
+        margin-bottom: 20px;
+    }
 
-.dashboard .req_work_list {
-    background-color: cyan;
-    width: 20%;
-    height: 100%;
-    border-radius: 5px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.dashboard .req_work_list span {
-    display: table;
-    margin: 0 auto;
-    padding-top: 60px;
-    color: blue;
-    font-weight: 900;
-}
-
-.dashboard .split_account {
-    background-color: cyan;
-    width: 18%;
-    height: 100%;
-    border-radius: 5px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.dashboard .split_account span {
-    display: table;
-    margin: 0 auto;
-    padding-top: 60px;
-    color: blue;
-    font-weight: 900;
-}
-
-.dashboard .merge_account {
-    background-color: cyan;
-    width: 18%;
-    height: 100%;
-    border-radius: 5px;
-    display: inline-block;
-    margin-right: 10px;
-}
-
-.dashboard .merge_account span {
-    display: table;
-    margin: 0 auto;
-    padding-top: 60px;
-    color: blue;
-    font-weight: 900;
-}
+    .footer #mars {
+        display: inline-block;
+        position: sticky;
+        display: flex;
+        left: 1105px;
+        margin-top: 12px;
+        margin-bottom: 18px;
+    }

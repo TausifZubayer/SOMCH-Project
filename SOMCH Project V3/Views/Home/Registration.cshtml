@@ -13,6 +13,34 @@
 
 <nav class="navbar navbar-light bg-light">
 	<div class="nav-left">
+		<a class="navbar-brand btn btn-light p-2 m-0" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+		   aria-controls="offcanvasExample">
+			<i class="bi bi-list"></i>
+		</a>
+
+		<div class="offcanvas offcanvas-start w-20" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+			<div class="offcanvas-header">
+				<h5 class="offcanvas-title" id="offcanvasExampleLabel" style="color: blue;">SOMCH</h5>
+				<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+			</div>
+			<div class="offcanvas-body">
+				<img class="img-fluid rounded mx-auto d-block" src="~/somc-logo.png" alt="..." width="150px" height="150px">
+				<div class="dropdown mt-3">
+					<button class="btn btn-light w-100 mb-3" type="button">
+						<i class="bi bi-house-door"></i> Dashboard
+					</button>
+					<button class="btn btn-light dropdown-toggle w-100" type="button" data-bs-toggle="dropdown">
+						<i class="bi bi-border-all"></i> Registration
+					</button>
+					<ul class="dropdown-menu w-100">
+						<li><a class="dropdown-item" href="#">Patient Registration</a></li>
+						<li><a class="dropdown-item" href="#">Registered Patient List</a></li>
+						<li><a class="dropdown-item" href="#">Privileged Request Patient List</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
 		<a class="navbar-brand" href="#">
 			<span class="navbar-title">SYLHET M A G OSMANI Medical College Hospital</span>
 		</a>
@@ -426,7 +454,7 @@
 					@*<div class="information-title">
 						<span>Other Information</span>
 						</div>
-					<!-- Occupation & religion -->
+						<!-- Occupation & religion -->
 						<div class="row">
 						<div class="col-6">
 						<div class="info-label mb-2"><span>Occupation</span></div>
@@ -465,12 +493,12 @@
 						</div>
 						</div>
 
-					<!-- Contract Info -->
+						<!-- Contract Info -->
 						<div class="information-title mt-3">
 						<span>Contact Information</span>
 						</div>
 
-					<!-- Division and District -->
+						<!-- Division and District -->
 						<div class="row">
 						<div class="col-6">
 						<div class="info-label mb-2"><span>Division</span></div>
@@ -509,13 +537,13 @@
 						</div>
 						</div>
 
-					<!-- Emergency Contact -->
-					<!-- Contract Info -->
-					<div class="information-title mt-3">
+						<!-- Emergency Contact -->
+						<!-- Contract Info -->
+						<div class="information-title mt-3">
 						<span>Emergency Contact</span>
 						</div>
 
-					<div class="row">
+						<div class="row">
 						<div class="col-12">
 						<label for="er-name" class="form-label info-label">Name</label>
 						<input type="er-name" class="form-control" id="er-name" placeholder="Type Here" />
@@ -548,9 +576,9 @@
 
 				<div class="row">
 					<div class="col-12 d-flex justify-content-center my-3">
-						<a href="#" class="btn btn-secondary">Reset</a>
-						<button type="button" class="btn btn-primary">Save</button>
-						<a href="#" class="btn btn-success">View Patient ID Card</a>
+						<a href="#" class="btn newbtn btn-secondary">Reset</a>
+						<button type="button" class="btn newbtn btn-primary">Save</button>
+						<a href="#" class="btn newbtn btn-success">View Patient ID Card</a>
 					</div>
 				</div>
 			</div>

@@ -22,10 +22,10 @@ namespace SOMCH_Project_V3.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult RegUserInfo(RegUserInfo user)
         {
-            bool status = false;
-            string message = "";
+            //bool status = false;
+            //string message = "";
 
-            var errors = ModelState.Values.SelectMany(v => v.Errors);
+            //var errors = ModelState.Values.SelectMany(v => v.Errors);
 
             if (ModelState.IsValid)
             {
@@ -40,26 +40,35 @@ namespace SOMCH_Project_V3.Controllers
                         {
                             if(retrievedPassword.Password == user.Password)
                             {
-                                status = true;
-                                message = "Login Successful";
+                                //status = true;
+                                //message = "Login Successful";
+                                return RedirectToAction("Dashboard");
+                            }
+                            else
+                            {
+                                //status = false;
+                                //message = "Invalid password";
+                                TempData["error"] = "Incorrect username or Password";
                             }
                         }
                     }
                 } 
                 else
                 {
-                    status = false;
-                    message = "Invalid username or password";
+                    //status = false;
+                    //message = "Invalid username";
+                    TempData["error"] = "Incorrect username or Password";
                 }
             } 
             else
             {
-                status = false;
-                message = "Invalid Request";
+                //status = false;
+                //message = "Invalid Request";
+                //TempData["error"] = "Invalid request";
             }
 
-            ViewBag.Status = status;
-            ViewBag.Message = message;
+            //ViewBag.Status = status;
+            //ViewBag.Message = message;
 
             return View(user);
         }

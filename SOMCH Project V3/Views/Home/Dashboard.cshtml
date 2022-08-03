@@ -1,63 +1,139 @@
 ﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+	For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 
 @{
-    ViewData["Title"] = "Dashboard Page";
+	ViewData["Title"] = "Dashboard Page";
 }
 
 @{
-    Layout = "Dashboard_Layout";
+	Layout = "Dashboard_Layout";
 }
 
 
+@*<head>
+	<link rel="stylesheet" href="~/css/Dashboard.css" asp-append-version="true" />
+	</head>
+
+	<div class="nothingnew">
+	<span id="med">
+	<p>
+	SYLHET MAG OSMANI Medical College Hospital
+	</p>
+	</span>
+	<span id="time">
+	<p>
+	23 Feb 2021, Tuesday : 12 : 42 : 53 PM
+	</p>
+	</span>
+	</div>
+
+	<div class="title">
+	<span>
+	Registration(Walk-In Patients)
+	</span>
+	</div>
+
+	<div class="newboarding">
+	<div class="patient_reg">
+	<span>
+	<a asp-action="Registration">Patient Registration</a>
+	</span>
+	</div>
+	<div class="reg_work_list">
+	<span>
+	<a asp-action="PatientWorkList">Registered Patient Work List</a>
+	</span>
+	</div>
+	<div class="req_work_list">
+	<span>
+	<a href="#">Privileged Request Work List</a>
+	</span>
+	</div>
+	<div class="split_account">
+	<span>
+	<a href="#">Split Patient Account</a>
+	</span>
+	</div>
+	<div class="merge_account">
+	<span>
+	<a href="#">Merge Patient Account</a>
+	</span>
+	</div>
+	</div>*@
+
 <head>
-    <link rel="stylesheet" href="~/css/Dashboard.css" asp-append-version="true" />
+	<link rel="stylesheet" href="~/css/Dashboard.css" />
 </head>
 
- <div class="navbar">
-    <span id="med">
-        <p>
-            SYLHET MAG OSMANI Medical College Hospital
-        </p>
-    </span>
-    <span id="time">
-        <p>
-            23 Feb 2021, Tuesday : 12 : 42 : 53 PM
-        </p>
-    </span>
+<div class="navbar">
+	<span id="medName">
+		<p>SYLHET MAG OSMANI Medical College Hospital</p>
+	</span>
+	<span id="mujib">
+		<img src="~/header-logo-mujib.png" alt="Mujib Borso" />
+	</span>
+	<span id="time">
+		<p>12 June 2022, Sunday : 12 : 42 : 53 AM</p>
+	</span>
+	<span id="notification">
+		<img src="~/header-notification-icon.png" alt="Notification" />
+	</span>
+	<span id="profile-photo">
+		<img id="img" src="~/header-profile-photo.jpg" alt="Profile Picture" />
+	</span>
+	<span id="name">
+		<p>MD. Sadman Walid</p>
+	</span>
 </div>
 
 <div class="title">
-    <span>
-        Registration(Walk-In Patients)
-    </span>
+	<span style="color: white"> Registration(Walk-In Patients) </span>
 </div>
 
 <div class="dashboard">
-    <div class="patient_reg">
-        <span>
-            <a href="Registration.html">Patient Registration</a>
-        </span>
-    </div>
-    <div class="reg_work_list">
-        <span>
-            <a href="workList.html">Registered Patient Work List</a>
-        </span>
-    </div>
-    <div class="req_work_list">
-        <span>
-            <a href="#">Privileged Request Work List</a>
-        </span>
-    </div>
-    <div class="split_account">
-        <span>
-            <a href="#">Split Patient Account</a>
-        </span>
-    </div>
-    <div class="merge_account">
-        <span>
-            <a href="#">Merge Patient Account</a>
-        </span>
-    </div>
+	<div class="patient_reg">
+		<span>
+			<a asp-action="Registration">
+				<img src="~/pr.PNG" alt="Patient Registration" />
+			</a>
+		</span>
+	</div>
+	<div class="reg_work_list">
+		<span>
+			<a asp-action="PatientWorkList"><img src="~/rpwl.PNG" alt="Registered Patient Work List" /></a>
+		</span>
+	</div>
+	<div class="req_work_list">
+		<span>
+			<a href="#"><img src="~/prwl.PNG" alt="Privileged Request Work List" /></a>
+		</span>
+	</div>
+	<div class="split_account">
+		<span>
+			<a href="#"><img src="~/spa.PNG" alt="Split Patient Account" /></a>
+		</span>
+	</div>
+	<div class="merge_account">
+		<span>
+			<a href="#"><img src="~/mpa.PNG" alt="Merge Patient Account" /></a>
+		</span>
+	</div>
 </div>
+
+<!-- ============================footer============================ -->
+<footer class="footer">
+	<span id="copy-rights">
+		<p>© 2022 All copyrights eGeneration Ltd.</p>
+	</span>
+
+	<span id="powered">
+		<p>Powered By:</p>
+	</span>
+	<span id="egen">
+		<img src="~/footer-logo-eGen.png" alt="eGenaration Ltd" />
+	</span>
+	<span id="mars">
+		<img src="~/footer-logo-mars.png" alt="mars" />
+	</span>
+</footer>
