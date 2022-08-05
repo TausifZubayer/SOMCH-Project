@@ -64,27 +64,85 @@
 
 <head>
 	<link rel="stylesheet" href="~/css/Dashboard.css" />
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
 </head>
 
-<div class="navbar">
-	<span id="medName">
-		<p>SYLHET MAG OSMANI Medical College Hospital</p>
-	</span>
-	<span id="mujib">
-		<img src="~/header-logo-mujib.png" alt="Mujib Borso" />
-	</span>
-	<span id="time">
-		<p>12 June 2022, Sunday : 12 : 42 : 53 AM</p>
-	</span>
-	<span id="notification">
-		<img src="~/header-notification-icon.png" alt="Notification" />
-	</span>
-	<span id="profile-photo">
-		<img id="img" src="~/header-profile-photo.jpg" alt="Profile Picture" />
-	</span>
-	<span id="name">
-		<p>MD. Sadman Walid</p>
-	</span>
+<div class="container-fluid">
+	<div class="row bg-white align-items-center justify-content-center" style="height: 50px;">
+
+		<div class="col-1 text-center">
+			<button class="btn bg-white p-2 m-0" style="width: 60px; height: 50px; display: inline-block;" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+					aria-controls="offcanvasExample">
+				<i class="bi bi-list" style="font-size: 2rem;"></i>
+			</button>
+
+			<div class="offcanvas offcanvas-start w-20" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+				<div class="offcanvas-header">
+					<h4 class="offcanvas-title" id="offcanvasExampleLabel" style="color: blue;"><strong>SOMCH</strong></h4>
+					<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+				</div>
+				<div class="offcanvas-body">
+					<img class="img-fluid rounded mx-auto d-block" src="~/somc-logo.png" alt="..." width="150px" height="150px">
+					<button class="btn btn-light w-100 mt-2" type="button">
+							<i class="bi bi-house-door"></i> Dashboard
+					</button>
+					<button class="btn btn-light dropdown-toggle w-100 mt-2" type="button" data-bs-toggle="dropdown">
+						<i class="bi bi-border-all"></i> Registration
+					</button>
+					<ul class="dropdown-menu w-100">
+						<li><a class="dropdown-item" href="#">Patient Registration</a></li>
+						<li><a class="dropdown-item" href="#">Registered Patient List</a></li>
+						<li><a class="dropdown-item" href="#">Privileged Request Patient List</a></li>
+					</ul>
+					<button class="btn btn-light w-100 mt-2" type="button">
+							<i class="bi bi-box"></i> OPD
+					</button>
+					<button class="btn btn-light w-100 mt-2" type="button">
+						<i class="bi bi-bank"></i> Setup
+					</button>
+					<button class="btn btn-light w-100 mt-2" type="button">
+						<i class="bi bi-border-all"></i> OPD Pharmacy
+					</button>
+					<button class="btn btn-light w-100 mt-2" type="button">
+						<i class="bi bi-box-fill"></i> Laboratory
+					</button>
+					<button class="btn btn-light w-100 mt-2" type="button">
+						<i class="bi bi-boxes"></i> Pathology
+					</button>
+					<button class="btn btn-light w-100 mt-2" type="button">
+						<i class="bi bi-box2"></i> BloodBank
+					</button>
+					<button class="btn btn-light w-100 mt-2" type="button">
+						<i class="bi bi-pass"></i> Radiology
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-3 text-start text-primary">
+			<p><strong>SYLHET MAG OSMANI Medical College Hospital</strong></p>
+		</div>
+
+		<div class="col-1 text-center">
+			<img src="~/header-logo-mujib.png" alt="Mujib Borso" width="50px" height="40px" />
+		</div>
+
+		<div class="col-3 text-center py-2">
+			<p style="background-color: lightblue;">12 June 2022, Sunday : 12 : 42 : 53 AM</p>
+		</div>
+
+		<div class="col-1 text-end">
+			<img src="~/header-notification-icon.png" alt="Notification" width="30px" height="30px" style="margin-left: 200px;" />
+		</div>
+
+		<div class="col-1 text-end">
+			<img id="img" src="~/header-profile-photo.jpg" alt="Profile Picture" width="35px" height="40px" style="margin-left: 150px;" />
+		</div>
+
+		<div class="col-2 text-end ps-0">
+			<p>MD. Sadman Walid</p>
+		</div>
+	</div>
 </div>
 
 <div class="title">
@@ -127,13 +185,13 @@
 		<p>© 2022 All copyrights eGeneration Ltd.</p>
 	</span>
 
-	<span id="powered">
+	<span id="powered" style="left: 1135px;">
 		<p>Powered By:</p>
 	</span>
-	<span id="egen">
+	<span id="egen" style="left: 1215px;">
 		<img src="~/footer-logo-eGen.png" alt="eGenaration Ltd" />
 	</span>
-	<span id="mars">
+	<span id="mars" style="left: 1300px;">
 		<img src="~/footer-logo-mars.png" alt="mars" />
 	</span>
 </footer>

@@ -4,8 +4,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.body {
+body {
     margin: 0;
+    padding: 0;
 }
 
 .login-cover-image {

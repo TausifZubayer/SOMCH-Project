@@ -154,7 +154,7 @@ button {
     font-size: small;
     width: 1100px;
     margin-top: 80px;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 
 th,
@@ -225,14 +225,14 @@ table button {
         margin-bottom: auto;
         display: flex;
         position: sticky;
-        left: 940px;
+        left: 1000px;
     }
 
     .footer #egen {
         display: inline-block;
         position: sticky;
         display: flex;
-        left: 1020px;
+        left: 1080px;
         margin-top: 8px;
         margin-bottom: 20px;
     }
@@ -241,7 +241,7 @@ table button {
         display: inline-block;
         position: sticky;
         display: flex;
-        left: 1105px;
+        left: 1165px;
         margin-top: 12px;
         margin-bottom: 18px;
     }

@@ -64,7 +64,7 @@ namespace SOMCH_Project_V3.Controllers
             {
                 //status = false;
                 //message = "Invalid Request";
-                //TempData["error"] = "Invalid request";
+                TempData["error"] = "Invalid request";
             }
 
             //ViewBag.Status = status;
